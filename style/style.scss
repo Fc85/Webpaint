@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html{/*Style html*/
+
+    overflow-x: hidden;
+
+    body{/*Style body*/
+
+        margin: 0;
+        font-family: "Roboto";
+        overflow-x: hidden;
+
+        header{/*Style header*/
+
+            background-color: #242424;
+
+            nav{/*Style nav*/
+
+                margin: 0 auto;
+                width: 80%;
+                padding: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                @media only screen and (max-width: 375px){/*Style nav responsive*/
+
+                    flex-direction: column;
+
+                }     
+
+                ul{/*Style menu*/
+
+                    width: 50%;
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-evenly;
+                    color: white;
+                    font-weight: 700;
+                    text-transform: uppercase;
+
+                    @media only screen and (max-width: 375px){/*Style menu responsive*/
+
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0;
+
+                        li{/*Style li responsive*/
+
+                            margin: 5px;
+
+                        }
+                    }      
+
+                    .rose{/*Couleur du bouton "HOME"*/
+
+                        color: #f76864;
+
+                    }
+                }
+            }
+        }
+
+        #un{/*Style de la premiere section*/
+
+            background-color: #2c2c2c;
+            color: white;
+            padding: 50px;
+
+            .container{/*Style du container*/
+
+                width: 63%;
+                margin: 0 auto;
+                text-align: center;
+                font-weight: 100;
+                text-transform: capitalize;
+                font-size: xx-large;
+
+                @media only screen and (max-width: 375px){/*Style du container responsive*/
+
+                    font-size: large;
+
+                } 
+
+                h1{/*Style du premier titre*/
+
+                    font-weight: 100;
+
+                    #strong{/*Mise en gras d'une certaine partie du titre*/
+
+                        font-weight: 700;
+
+                    }
+                }
+
+                button{/*Style du bouton*/
+
+                    background-color: #f76864;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 15px;
+                    color: white;
+                    font-family: "Roboto";
+                    text-transform: uppercase;
+                    font-size: medium;
+                    font-weight: 500;
+                    width: 15%;
+
+                    @media only screen and (max-width: 375px){/*Style du bouton responsive*/
+
+                        width: 60%;
+
+                    }    
+                }
+            }
+        }
+
+        #deux{/*Style de la deuxième section*/
+
+            background-color: #fcfcfc;
+
+            .container{/*Style du container*/
+
+                width: 90%;
+                padding: 50px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-evenly;
+
+                @media only screen and (max-width: 375px){/*Style du container responsive*/
+
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 20px;
+
+                }    
+
+                .colones{/*Style des colones*/
+
+                    width: 15%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    color: #646362;
+
+                    h3{/*Style du troisième titre*/
+
+                        text-transform: capitalize;
+
+                    }
+
+                    @media only screen and (max-width: 375px){/*Style colones responsive*/
+
+                        width: 90%;
+
+                    }    
+                }
+            }
+        }
+
+        #trois{/*Style de la troisieme section*/
+
+            background-color: white;
+            color: #646362;
+
+            .container{/*Style du container*/
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2{/*Style du deuxième titre*/
+
+                    text-transform: capitalize;
+                    font-size: xx-large;
+
+                }
+
+                p{/*Style du paragraphe*/
+
+                    font-size: x-large;
+                    font-weight: 300;
+                    margin-top: 0;
+
+                    @media only screen and (max-width: 375px){/*Style du paragraphe responsive*/
+
+                        text-align: center;
+
+                    } 
+
+                }
+
+                #tousbut{/*Style de la div des bouton*/
+
+                    width: 20%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    @media only screen and (max-width: 375px){/*Style de la div des boutons responsive*/
+
+                        flex-direction: column;
+                        align-items: center;
+
+                    }  
+
+                    button{/*Style des boutons*/
+
+                        background-color: #f76864;
+                        border: none;
+                        border-radius: 5px;
+                        color: white;
+                        font-family: "Roboto";
+                        text-transform: uppercase;
+                        font-size: medium;
+                        font-weight: 500;
+                        padding: 5px;
+                        
+                        @media only screen and (max-width: 375px){/*Style des boutons responsive*/
+
+                            margin: 2px;
+
+                        }  
+                    }
+
+                    #gris{/*Couleur du bouton "ALL"*/
+
+                        background-color: #646362;
+
+                    }
+                }
+
+                #blocimages{/*Style du bloc contenant la gallery*/
+
+                    list-style: none;
+                    width: 60%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    
+                    @media only screen and (max-width: 375px){/*Style du bloc contenant la gallery responsive*/
+
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0;
+                        flex-wrap: nowrap;
+
+                    }  
+                }
+            }
+        }
+
+        footer{/*Style du footer*/
+
+            background-color: #2c2c2c;
+            padding-top: 50px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{/*Style du deuxième titre*/
+
+                text-transform: capitalize;
+                font-size: xx-large;
+                
+            }
+
+            #pun{/*Style du premier paragraphe*/
+
+                font-size: x-large;
+                font-weight: 300;
+                
+                @media only screen and (max-width: 375px){/*Style du premier paragraphe responsive*/
+
+                    text-align: center;
+
+                }  
+            }
+
+            ul{/*Style de la liste des localisation*/
+
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+
+            }
+
+            #localisation{/*Style des localisation*/
+
+                width: 30%;
+                font-weight: 100;
+
+                i{/*Style des icons de localisation*/
+
+                    color: #f76864;
+
+                }
+                
+                @media only screen and (max-width: 375px){/*Style des localisation responsive*/
+
+                    flex-direction: column;
+                    padding: 0;
+                    width: 90%;
+                    font-size: small;
+
+                    li{/*Style des li responsive*/
+
+                        margin: 5px;
+
+                    }
+                }  
+            }
+
+            #reseaux{/*Style des réseaux*/
+
+                width: 9%;
+                padding-bottom: 20px;
+                
+                @media only screen and (max-width: 375px){/*Style des réseaux responsive*/
+
+                    width: 50%;
+                    padding: 0;
+
+                }  
+
+                li{/*Style des li*/
+
+                    width: 8px;
+                    height: 8px;
+                    padding: 10px;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+                
+                #rss{/*Style du réseau rss*/
+                    background-color: #e8af6e;
+                }
+                #facebook{/*Style du réseau facebook*/
+                    background-color: #486c90;
+                }
+                #twitter{/*Style du réseau twitter*/
+                    background-color: #74bcd7;
+                }
+                #dribble{/*Style du réseau dribble*/
+                    background-color: #efd2db;
+                }
+                #pinterest{/*Style du réseau pinterest*/
+                    background-color: #c85c5a;
+                }
+            }
+
+            #subfooter{/*Style du sous-footer*/
+
+                padding: 50px 0 50px 0;
+                font-weight: 100;
+                text-align: center;
+                width: 100%;
+                background-color: #242424;
+
+            }
+        }
+    }
+}

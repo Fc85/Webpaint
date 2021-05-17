@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html {
+  overflow-x: hidden;
+}
+
+html body {
+  margin: 0;
+  font-family: "Roboto";
+  overflow-x: hidden;
+}
+
+html body header {
+  background-color: #242424;
+}
+
+html body header nav {
+  margin: 0 auto;
+  width: 80%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 375px) {
+  html body header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+html body header nav ul {
+  width: 50%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 375px) {
+  html body header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  html body header nav ul li {
+    margin: 5px;
+  }
+}
+
+html body header nav ul .rose {
+  color: #f76864;
+}
+
+html body #un {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 50px;
+}
+
+html body #un .container {
+  width: 63%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+@media only screen and (max-width: 375px) {
+  html body #un .container {
+    font-size: large;
+  }
+}
+
+html body #un .container h1 {
+  font-weight: 100;
+}
+
+html body #un .container h1 #strong {
+  font-weight: 700;
+}
+
+html body #un .container button {
+  background-color: #f76864;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 500;
+  width: 15%;
+}
+
+@media only screen and (max-width: 375px) {
+  html body #un .container button {
+    width: 60%;
+  }
+}
+
+html body #deux {
+  background-color: #fcfcfc;
+}
+
+html body #deux .container {
+  width: 90%;
+  padding: 50px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 375px) {
+  html body #deux .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px;
+  }
+}
+
+html body #deux .container .colones {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #646362;
+}
+
+html body #deux .container .colones h3 {
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 375px) {
+  html body #deux .container .colones {
+    width: 90%;
+  }
+}
+
+html body #trois {
+  background-color: white;
+  color: #646362;
+}
+
+html body #trois .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #trois .container h2 {
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+html body #trois .container p {
+  font-size: x-large;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 375px) {
+  html body #trois .container p {
+    text-align: center;
+  }
+}
+
+html body #trois .container #tousbut {
+  width: 20%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 375px) {
+  html body #trois .container #tousbut {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+html body #trois .container #tousbut button {
+  background-color: #f76864;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 500;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 375px) {
+  html body #trois .container #tousbut button {
+    margin: 2px;
+  }
+}
+
+html body #trois .container #tousbut #gris {
+  background-color: #646362;
+}
+
+html body #trois .container #blocimages {
+  list-style: none;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media only screen and (max-width: 375px) {
+  html body #trois .container #blocimages {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+html body footer {
+  background-color: #2c2c2c;
+  padding-top: 50px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body footer h2 {
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+html body footer #pun {
+  font-size: x-large;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 375px) {
+  html body footer #pun {
+    text-align: center;
+  }
+}
+
+html body footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body footer #localisation {
+  width: 30%;
+  font-weight: 100;
+}
+
+html body footer #localisation i {
+  color: #f76864;
+}
+
+@media only screen and (max-width: 375px) {
+  html body footer #localisation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    width: 90%;
+    font-size: small;
+  }
+  html body footer #localisation li {
+    margin: 5px;
+  }
+}
+
+html body footer #reseaux {
+  width: 9%;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  html body footer #reseaux {
+    width: 50%;
+    padding: 0;
+  }
+}
+
+html body footer #reseaux li {
+  width: 8px;
+  height: 8px;
+  padding: 10px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body footer #reseaux #rss {
+  background-color: #e8af6e;
+}
+
+html body footer #reseaux #facebook {
+  background-color: #486c90;
+}
+
+html body footer #reseaux #twitter {
+  background-color: #74bcd7;
+}
+
+html body footer #reseaux #dribble {
+  background-color: #efd2db;
+}
+
+html body footer #reseaux #pinterest {
+  background-color: #c85c5a;
+}
+
+html body footer #subfooter {
+  padding: 50px 0 50px 0;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  background-color: #242424;
+}
+/*# sourceMappingURL=style.css.map */
